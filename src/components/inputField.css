@@ -3,6 +3,7 @@
   width: 90%;
   align-items: center;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .inputField__input {
