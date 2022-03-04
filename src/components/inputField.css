@@ -1,0 +1,50 @@
+.inputField {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  position: relative;
+}
+
+.inputField__input {
+  width: 100%;
+  border-radius: 50px;
+  padding: 20px 50px;
+  font-size: 25px;
+  border: none;
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 0px 61px 3px rgba(255, 255, 255, 0.73);
+  -moz-box-shadow: 0px 0px 61px 3px rgba(255, 255, 255, 0.73);
+  box-shadow: 0px 0px 61px 3px rgba(255, 255, 255, 0.73);
+}
+
+.inputField__input:focus {
+  outline: none;
+}
+
+.inputField__button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 12px;
+  border-radius: 50px;
+  right: 0;
+  border: none;
+  font-size: 15px;
+  background-color: #7854f7;
+  color: white;
+  transition: 0.2s all;
+  -webkit-box-shadow: 0px 0px 26px -2px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 0px 0px 26px -2px rgba(0, 0, 0, 0.82);
+  box-shadow: 0px 0px 26px -2px rgba(0, 0, 0, 0.82);
+}
+
+.inputField__button:hover {
+  background-color: #3e88ff;
+}
+
+.inputField__button:active {
+  transform: scale(0.8);
+  -webkit-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.82);
+  box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.82);
+}
